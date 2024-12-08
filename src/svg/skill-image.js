@@ -71,6 +71,7 @@ import firebase from "./skills/firebase.svg";
 import git from "./skills/git.svg";
 import office from "./skills/microsoftoffice.svg";
 import sanity from "./skills/sanity.svg";
+import groq from "./skills/groq.png";
 // import illustrator from "./skills/illustrator.svg";
 // import c from "./skills/c.svg";
 // import photoshop from "./skills/photoshop.svg";
@@ -88,11 +89,12 @@ import sanity from "./skills/sanity.svg";
 // import gcp from "./skills/gcp.svg";
 
 const skillIcons = {
-  nodejs,
+  // nodejs,
   saas,
   // flask,
   office,
   sanity,
+  groq,
   // gcp,
   html,
   // photoshop,
@@ -113,11 +115,11 @@ const skillIcons = {
   // postgresql,
   tailwind,
   vitejs,
-  vuetifyjs,
+  // vuetifyjs,
   // c,
   "c++": cplusplus,
   // "c#": csharp,
-  dart,
+  // dart,
   firebase,
   git,
   materialui,
@@ -184,6 +186,6 @@ const skillIcons = {
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
-  console.log(skillID);
+  // console.log(skillID);
   return skillIcons[skillID] || null;
 };
