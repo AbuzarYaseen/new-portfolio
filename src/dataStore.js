@@ -1,7 +1,7 @@
 import profile from "./assets/profile.jpg";
 
 export const personalData = {
-  name: "Muhammad Abuzar Yaseen",
+  name: "Abuzar Yaseen",
   // designation: ["Frontend Developer"],
   designation: "Frontend Engineer",
   github: "https://github.com/AbuzarYaseen",
