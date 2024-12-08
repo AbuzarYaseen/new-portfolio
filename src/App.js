@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import ContactSection from "./components/ContactSection";
+import Projects from "./components/Projects";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -40,7 +41,7 @@ const App = () => {
           <AboutSection />
           <Experience />
           <Skills />
-          {/* <Projects /> */}
+          <Projects />
           <Education />
           {/* <Blog /> */}
           <ContactSection />
