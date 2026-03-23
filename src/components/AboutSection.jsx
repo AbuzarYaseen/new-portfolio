@@ -18,7 +18,7 @@ function AboutSection() {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div className="order-1 lg:order-1">
-          <p
+          <h2
             className="font-medium mb-5 text-[#16f2b3] text-xl uppercase"
             data-aos="zoom-in"
             data-aos-duration="1000"
@@ -26,7 +26,7 @@ function AboutSection() {
             data-aos-easing="ease-in-out"
           >
             Who I am?
-          </p>
+          </h2>
           <p
             className="text-gray-200 text-sm lg:text-lg"
             data-aos="zoom-out"

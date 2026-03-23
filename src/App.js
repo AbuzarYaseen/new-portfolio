@@ -21,7 +21,7 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    document.title = `${personalData.name}'s Portfolio`;
+    document.title = `${personalData.name} | Frontend Engineer Portfolio`;
   }, []);
 
   useEffect(() => {

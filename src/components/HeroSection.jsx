@@ -27,14 +27,14 @@ const HeroSection = () => {
           data-aos-easing="ease-in-out"
         >
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Hello, This is <br />
+            Abuzar Yaseen <br />
             <TypeAnimation
               sequence={[
-                `${personalData.name}`,
+                "Frontend Engineer",
                 1000,
                 " ",
                 1000,
-                `${personalData.name}`,
+                "React & Next.js Developer",
                 1000,
               ]}
               wrapper="span"
@@ -43,22 +43,14 @@ const HeroSection = () => {
               className="text-pink-500"
             />{" "}
             <br />
-            {`I'm a Professional `} <br />
+            {`Building modern web experiences with `} <br />
             <TypeAnimation
-              // sequence={[
-              //   ...personalData.designation.map((des) => `${des}`),
-              //   1000,
-              // ]}
-              // wrapper="span"
-              // speed={50}
-              // repeat={Infinity}
-              // className="text-[#16f2b3]"
               sequence={[
-                `${personalData.designation}`,
+                "JavaScript & Tailwind CSS",
                 1000,
                 " ",
                 1000,
-                `${personalData.designation}`,
+                "JavaScript & Tailwind CSS",
                 1000,
               ]}
               wrapper="span"
@@ -67,6 +59,18 @@ const HeroSection = () => {
               className="text-[#16f2b3]"
             />{" "}
           </h1>
+
+          <p
+            className="mt-6 max-w-2xl text-sm leading-7 text-gray-300 md:text-base"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+          >
+            I am Abuzar Yaseen, a frontend engineer from Lahore, Pakistan,
+            specializing in React.js, Next.js, JavaScript, Tailwind CSS, and
+            high-performance user interfaces for modern web products.
+          </p>
 
           <div className="my-12 flex items-center gap-3">
             <a
