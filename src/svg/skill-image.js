@@ -63,7 +63,6 @@ import saas from "./skills/cloud.svg";
 import vitejs from "./skills/vitejs.svg";
 import cplusplus from "./skills/cplusplus.svg";
 import css from "./skills/css.svg";
-import dart from "./skills/dart.svg";
 import mysql from "./skills/mysql.svg";
 import nextJS from "./skills/nextJS.svg";
 import figma from "./skills/figma.svg";
@@ -124,7 +123,6 @@ const skillIcons = {
   git,
   materialui,
   figma,
-  sanity,
   // flutter,
   ionic,
   // microservices,
