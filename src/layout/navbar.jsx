@@ -9,6 +9,10 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const closeNav = () => {
+    setNav(false);
+  };
+
   const navItems = [
     { id: 1, text: "About", href: "#about" },
     { id: 2, text: "Experience", href: "#experience" },
@@ -31,6 +35,7 @@ const Navbar = () => {
             <a
               className="whitespace-nowrap cursor-pointer duration-300 hover:text-pink-600 text-sm transition-colors"
               href={item.href}
+              onClick={closeNav}
             >
               {item.text}
             </a>
@@ -57,6 +62,7 @@ const Navbar = () => {
           <li key={item.id}>
             <a
               href={item.href}
+              onClick={closeNav}
               className="p-4 duration-300 hover:text-pink-600 cursor-pointer border-gray-600 text-sm transition-colors"
             >
               {item.text}

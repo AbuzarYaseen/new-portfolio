@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e568f441.css",
+    "main.js": "/static/js/main.d79a0640.js",
+    "static/js/453.38bbbca6.chunk.js": "/static/js/453.38bbbca6.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.27968426011102b030b1.jpg",
+    "static/media/AbuzarYaseenCV.pdf": "/static/media/AbuzarYaseenCV.f4734f954dc53c3ead2c.pdf",
+    "static/media/section.svg": "/static/media/section.3edbb257193d8fe1eddc2abf997bf840.svg",
+    "static/media/hero.svg": "/static/media/hero.25dbd1ab1866f742ca83f5d604da3db7.svg",
+    "static/media/react.svg": "/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg",
+    "static/media/mysql.svg": "/static/media/mysql.61d16d6438ce80c593a10153f5654b10.svg",
+    "static/media/firebase.svg": "/static/media/firebase.1aa395c85c103e349e0af5b92f670243.svg",
+    "static/media/cplusplus.svg": "/static/media/cplusplus.3b0d7340ed9a40a744043d23ffa5ebe1.svg",
+    "static/media/microsoftoffice.svg": "/static/media/microsoftoffice.75a83b98c378ee32b3df5bb5e22e6f0c.svg",
+    "static/media/cloud.svg": "/static/media/cloud.9f3e67f0b961bbc88efb8411ed881432.svg",
+    "static/media/nextJS.svg": "/static/media/nextJS.330fb71cbedf3482d2a778c44724ab71.svg",
+    "static/media/typescript.svg": "/static/media/typescript.f66836b8961d019a6f633b3c89b0c2ad.svg",
+    "static/media/dart.svg": "/static/media/dart.8b2ac340a8900c07cd56ebf1fdbf83a1.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.3b3ab2cfe7cdf9d8eb417ce32f573b04.svg",
+    "static/media/vitejs.svg": "/static/media/vitejs.11f3d8993112a5a70f1d29894e957151.svg",
+    "static/media/git.svg": "/static/media/git.2d7df16e58dae6c26bba033ee2e8c4d8.svg",
+    "static/media/ionic.svg": "/static/media/ionic.711c6d3d08781588409d628a2458de65.svg",
+    "static/media/sanity.svg": "/static/media/sanity.584e365e9e3ec11aedbe800ec7d9a9a2.svg",
+    "static/media/javascript.svg": "/static/media/javascript.f84ec7103324dc7e616d00ed43ecd531.svg",
+    "static/media/tailwind.svg": "/static/media/tailwind.01daca9bb655244e125004ccd8d68e66.svg",
+    "static/media/css.svg": "/static/media/css.afb434f6d712d3e4ff53be8da4d9876a.svg",
+    "static/media/html.svg": "/static/media/html.75bdf0b057c088503944680032ea6347.svg",
+    "static/media/figma.svg": "/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg",
+    "index.html": "/index.html",
+    "static/media/blur-23.svg": "/static/media/blur-23.34fb3256a15748e5cc157c97619764ad.svg",
+    "static/media/materialui.svg": "/static/media/materialui.d7f5c38f45cba4d9717da569bf6996ee.svg",
+    "main.e568f441.css.map": "/static/css/main.e568f441.css.map",
+    "main.d79a0640.js.map": "/static/js/main.d79a0640.js.map",
+    "453.38bbbca6.chunk.js.map": "/static/js/453.38bbbca6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e568f441.css",
+    "static/js/main.d79a0640.js"
+  ]
+}

@@ -4,10 +4,10 @@ import { TypeAnimation } from "react-type-animation";
 
 function ProjectCard() {
   const deadlineDays = 2; // Number of days for the deadline
-  const deadlineDate = new Date();
-  deadlineDate.setDate(deadlineDate.getDate() + deadlineDays);
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft());
   function calculateTimeLeft() {
+    const deadlineDate = new Date();
+    deadlineDate.setDate(deadlineDate.getDate() + deadlineDays);
     const now = new Date().getTime();
     const diff = deadlineDate - now;
 
@@ -40,7 +40,7 @@ function ProjectCard() {
     return () => {
       clearInterval(timer);
     };
-  }, []);
+  }, [deadlineDays]);
   return (
     <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
       <div className="flex flex-row">

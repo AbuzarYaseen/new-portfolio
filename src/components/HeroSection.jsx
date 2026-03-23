@@ -10,7 +10,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 const HeroSection = () => {
   return (
-    <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
+    <section className="relative flex flex-col items-center justify-between py-4 lg:py-12 overflow-x-hidden">
       <img
         src={heroImage}
         alt="Hero"
@@ -106,12 +106,12 @@ const HeroSection = () => {
           <div className="flex items-center gap-3">
             <a
               href="#contactMe"
-              className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600"
+              className="hoverBtn rounded-full bg-gradient-to-r from-violet-600 to-pink-500 p-[1px] transition-all duration-300 hover:from-pink-500 hover:to-violet-600"
             >
-              <button className="hoverBtn px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out md:font-semibold flex items-center gap-1">
+              <span className="flex items-center gap-1 rounded-full bg-[#0d1224] px-3 py-3 text-center text-xs font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out md:px-8 md:py-4 md:text-sm md:font-semibold">
                 <span>Contact me</span>
                 <RiContactsFill size={16} />
-              </button>
+              </span>
             </a>
             <a
               href={require("../AbuzarYaseenCV.pdf")}

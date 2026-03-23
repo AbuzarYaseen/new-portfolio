@@ -32,6 +32,7 @@ function ContactSection() {
           form.current.reset();
         },
         (error) => {
+          setLoading(false);
           toast.error("Something went!");
           console.log(`Failed to send message: ${error.text}`);
         }
