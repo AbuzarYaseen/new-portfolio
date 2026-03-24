@@ -34,7 +34,25 @@ function AboutSection() {
             data-aos-delay="50"
             data-aos-easing="ease-in-out"
           >
-            {AboutData.description}
+            {AboutData.description[0]}
+          </p>
+          <p
+            className="text-gray-200 text-sm lg:text-lg mt-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="50"
+            data-aos-easing="ease-in-out"
+          >
+            {AboutData.description[1]}
+          </p>
+          <p
+            className="text-gray-200 text-sm lg:text-lg mt-4"
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            data-aos-delay="50"
+            data-aos-easing="ease-in-out"
+          >
+            {AboutData.description[2]}
           </p>
         </div>
         <div className="flex justify-center order-2 lg:order-2">

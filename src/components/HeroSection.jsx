@@ -27,7 +27,7 @@ const HeroSection = () => {
           data-aos-easing="ease-in-out"
         >
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Abuzar Yaseen <br />
+            Hi, I'm a <br />
             <TypeAnimation
               sequence={[
                 "Frontend Engineer",
